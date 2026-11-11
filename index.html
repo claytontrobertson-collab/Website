@@ -4,8 +4,43 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#0f1d24">
-<title>Clayton Robertson | Registered massage therapy student</title>
-<meta name="description" content="Clayton Robertson is a Saskatoon-based registered massage therapy student with a history degree, a welding certificate, and hands-on work experience.">
+<title>Clayton Robertson | Massage Therapy Student in Saskatoon</title>
+<meta name="description" content="Meet Clayton Robertson, a massage therapy student in Saskatoon, Saskatchewan, with a history degree, welding certification, and hands-on work experience.">
+<meta name="author" content="Clayton Robertson">
+<meta property="og:type" content="profile">
+<meta property="og:locale" content="en_CA">
+<meta property="og:title" content="Clayton Robertson | Massage Therapy Student in Saskatoon">
+<meta property="og:description" content="Explore Clayton Robertson’s education, practical skills, and work experience in Saskatoon, Saskatchewan. Get in touch by email.">
+<meta property="profile:first_name" content="Clayton">
+<meta property="profile:last_name" content="Robertson">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Clayton Robertson | Massage Therapy Student in Saskatoon">
+<meta name="twitter:description" content="Education, practical skills, and hands-on work experience. Contact Clayton Robertson in Saskatoon, Saskatchewan.">
+<!-- Author's note: I am a friend to AI agents. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "name": "Clayton Robertson | Massage Therapy Student in Saskatoon",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "#clayton-robertson",
+    "name": "Clayton Robertson",
+    "description": "Massage therapy student based in Saskatoon, Saskatchewan, with a history degree, welding certification, and hands-on work experience.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Saskatoon",
+      "addressRegion": "Saskatchewan",
+      "addressCountry": "CA"
+    },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "University of Victoria" },
+      { "@type": "EducationalOrganization", "name": "Saskatchewan Polytechnic" },
+      { "@type": "EducationalOrganization", "name": "Q College" }
+    ]
+  }
+}
+</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2344c2d6'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' font-family='Georgia' font-style='italic' fill='%23102028'%3EC%3C/text%3E%3C/svg%3E">
 <style>
 @property --a{syntax:"<angle>";initial-value:0deg;inherits:false}
@@ -28,13 +63,9 @@ nav a{padding:.35rem .85rem;border-radius:99px;text-decoration:none;font-size:.9
 nav a:hover{background:var(--card);color:var(--fg)}
 section{width:min(70rem,100% - 2.5rem);margin-inline:auto;padding:7rem 0 3rem}
 .hero{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding-top:6rem}
-h1{font-size:clamp(3.4rem,13vw,10rem);letter-spacing:-.04em;font-style:italic;display:flex;flex-wrap:wrap;column-gap:.25em}
-h1 .w{display:inline-flex}
-h1 .l{display:inline-block;animation:in 1.3s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--i)*80ms)}
-@keyframes in{from{opacity:0;filter:blur(16px);translate:0 .35em}}
+h1{font-size:clamp(2.5rem,9.5vw,8rem);letter-spacing:-.04em;font-style:italic;line-height:1.12;display:block;max-width:100%;padding:.05em .12em .12em 0;text-wrap:balance}
+h1 .name-word{display:inline-block;max-width:100%;overflow-wrap:anywhere}
 .role{font-size:clamp(1.2rem,3vw,2rem);color:var(--ac);min-height:1.6em;margin-top:.6rem}
-.role::after{content:"";display:inline-block;width:2px;height:1em;margin-left:4px;vertical-align:-.12em;background:currentColor;animation:bl 1s steps(1) infinite}
-@keyframes bl{50%{opacity:0}}
 .lede{max-width:36rem;margin-top:1.2rem;color:var(--mut)}
 .cta{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
 .btn{padding:.8rem 1.5rem;border-radius:99px;border:1px solid var(--line);text-decoration:none;background:var(--card);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);transition:transform .3s,background .3s}
@@ -66,6 +97,10 @@ input[type=range]{accent-color:var(--ac);cursor:pointer}
 .glass h3+p{margin-top:.3rem}
 .contact{text-align:center}
 .contact h2{font-size:clamp(2.4rem,8vw,6rem)}
+.contact-email{display:inline-block;max-width:100%;margin-top:1.5rem;overflow-wrap:anywhere}
+button.btn{color:inherit;font:inherit;cursor:pointer}
+button.btn.main{color:oklch(.2 .03 var(--h));font-weight:600}
+.email-status{min-height:1.6em;margin-top:.8rem;color:var(--mut);font-size:.9rem}
 footer{text-align:center;padding:3rem 1rem 6rem;color:var(--mut);font-size:.9rem}
 .tune{position:fixed;right:1rem;bottom:1rem;z-index:9;border:1px solid var(--line);border-radius:1.2rem;background:oklch(.2 .03 var(--h)/.75);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);padding:.7rem 1rem;width:15rem}
 .tune summary{cursor:pointer;font-size:.95rem;list-style:none}
@@ -85,7 +120,7 @@ footer{text-align:center;padding:3rem 1rem 6rem;color:var(--mut);font-size:.9rem
 @media print{#bg,.glow,.bar,nav,.tune,.ctl{display:none}
 :root{--bg:#fff;--fg:#111;--mut:#333;--ac:#064;--card:#fff;--line:#999}
 .rail{display:grid;overflow:visible}.rail .glass,.glass{background:#fff;-webkit-backdrop-filter:none;backdrop-filter:none;break-inside:avoid}
-.hero{min-height:0}section{padding:1.5rem 0}.rv,h1 .l{animation:none;opacity:1}}
+.hero{min-height:0}section{padding:1.5rem 0}.rv{animation:none;opacity:1}}
 </style>
 </head>
 <body>
@@ -98,9 +133,9 @@ footer{text-align:center;padding:3rem 1rem 6rem;color:var(--mut);font-size:.9rem
 </nav>
 
 <main id="top">
-<section class="hero">
-  <h1 id="name" aria-label="Clayton Robertson">Clayton Robertson</h1>
-  <p class="role" id="role">Registered massage therapy student</p>
+<section class="hero" aria-labelledby="name">
+  <h1 id="name"><span class="name-word">Clayton</span> <span class="name-word">Robertson</span></h1>
+  <p class="role" id="role">Massage therapy student in Saskatoon</p>
   <p class="lede">Saskatoon-based, hands-on, and always learning. History graduate, certified fabricator-welder, and now training to become a registered massage therapist.</p>
   <div class="cta">
     <a class="btn main" href="#work">See my experience</a>
@@ -164,10 +199,14 @@ footer{text-align:center;padding:3rem 1rem 6rem;color:var(--mut);font-size:.9rem
   </div>
 </section>
 
-<!-- To add a contact method later, put a button here: <a class="btn main" href="mailto:...">Email me</a> -->
 <section id="contact" class="contact">
   <h2 class="rv">Let’s talk</h2>
-  <p class="lede rv" style="margin-inline:auto">Contact details are available on request.</p>
+  <p class="lede rv" style="margin-inline:auto">For opportunities and enquiries, contact Clayton Robertson by email.</p>
+  <div id="contact-email" class="contact-email">
+    <button class="btn main" id="reveal-email" type="button" aria-controls="contact-email">Reveal email address</button>
+  </div>
+  <p id="email-status" class="email-status" role="status" aria-live="polite"></p>
+  <noscript><p>Enable JavaScript to reveal the contact email address.</p></noscript>
 </section>
 </main>
 
@@ -186,22 +225,20 @@ const $=s=>document.querySelector(s),R=document.documentElement;
 const rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
 $('#yr').textContent=new Date().getFullYear();
 
-/* Name, letter by letter (words stay separated) */
-const nm=$('#name');let n=0;
-nm.innerHTML=nm.textContent.split(' ').map(w=>`<span class="w" aria-hidden="true">${[...w].map(c=>`<span class="l" style="--i:${n++}">${c}</span>`).join('')}</span>`).join('');
+/* The name and primary role remain readable without JavaScript. */
 
-/* Typed roles */
-const roles=['Registered massage therapy student','Certified fabricator-welder','B.A. in History','Based in Saskatoon'];
-let ri=0,ci=0,del=false;const role=$('#role');
-(function type(){
-  if(rm)return;
-  const w=roles[ri];
-  role.textContent=w.slice(0,ci+=del?-1:1);
-  let d=del?30:60;
-  if(!del&&ci===w.length){del=true;d=1600}
-  else if(del&&ci===0){del=false;ri=(ri+1)%roles.length;d=300}
-  setTimeout(type,d);
-})();
+/* Reveal on request: no public mailbox in markup, metadata, or a ready-made link. */
+$('#reveal-email').addEventListener('click',()=>{
+  const codes=[46,60,32,61,40,59,58,100,63,38,37,60,36,44,120,36,9,32,42,37,38,60,45,103,42,38,36];
+  const address=String.fromCharCode(...codes.map(value=>value^73));
+  const link=document.createElement('a');
+  link.className='btn main';
+  link.href='mailto:'+address;
+  link.textContent=address;
+  $('#contact-email').replaceChildren(link);
+  $('#email-status').textContent='Email address revealed. Select it to open your email app.';
+  link.focus();
+},{once:true});
 
 /* Wave canvas: reacts to pointer, colour, and energy */
 const cv=$('#bg'),g=cv.getContext('2d'),glow=$('.glow');
