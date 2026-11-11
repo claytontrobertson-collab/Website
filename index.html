@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0f1d24">
+<title>Clayton Robertson | Registered massage therapy student</title>
+<meta name="description" content="Clayton Robertson is a Saskatoon-based registered massage therapy student with a history degree, a welding certificate, and hands-on work experience.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2344c2d6'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' font-family='Georgia' font-style='italic' fill='%23102028'%3EC%3C/text%3E%3C/svg%3E">
+<style>
+@property --a{syntax:"<angle>";initial-value:0deg;inherits:false}
+:root{color-scheme:dark;--h:200;--glow:.6;
+--bg:oklch(.17 .035 var(--h));--fg:oklch(.96 .01 var(--h));--mut:oklch(.78 .03 var(--h));
+--ac:oklch(.8 .14 var(--h));--ac2:oklch(.78 .15 calc(var(--h) + 70));
+--card:oklch(1 0 0/.06);--line:oklch(1 0 0/.14)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--fg);font:400 clamp(1rem,.94rem + .3vw,1.15rem)/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:ui-serif,"Iowan Old Style","Palatino Linotype",Georgia,serif;font-weight:400;line-height:1.1}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--ac);outline-offset:3px}
+#bg{position:fixed;inset:0;width:100%;height:100%;z-index:-2}
+.glow{position:fixed;left:0;top:0;width:36rem;aspect-ratio:1;border-radius:50%;pointer-events:none;z-index:-1;background:radial-gradient(var(--ac),transparent 65%);opacity:calc(var(--glow)*.3);filter:blur(30px);translate:calc(var(--mx,60vw) - 50%) calc(var(--my,25vh) - 50%)}
+.bar{position:fixed;inset:0 0 auto;height:3px;z-index:9;background:linear-gradient(90deg,var(--ac),var(--ac2));transform-origin:0 50%;scale:0 1}
+nav{position:fixed;top:1rem;left:50%;translate:-50% 0;z-index:8;display:flex;gap:.2rem;max-width:calc(100% - 1rem);overflow-x:auto;scrollbar-width:none;padding:.35rem;border:1px solid var(--line);border-radius:99px;background:oklch(.2 .03 var(--h)/.65);-webkit-backdrop-filter:blur(14px) saturate(1.4);backdrop-filter:blur(14px) saturate(1.4)}
+nav::-webkit-scrollbar{display:none}
+nav a{padding:.35rem .85rem;border-radius:99px;text-decoration:none;font-size:.92rem;color:var(--mut);white-space:nowrap;transition:background .3s,color .3s}
+nav a:hover{background:var(--card);color:var(--fg)}
+section{width:min(70rem,100% - 2.5rem);margin-inline:auto;padding:7rem 0 3rem}
+.hero{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding-top:6rem}
+h1{font-size:clamp(3.4rem,13vw,10rem);letter-spacing:-.04em;font-style:italic;display:flex;flex-wrap:wrap;column-gap:.25em}
+h1 .w{display:inline-flex}
+h1 .l{display:inline-block;animation:in 1.3s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--i)*80ms)}
+@keyframes in{from{opacity:0;filter:blur(16px);translate:0 .35em}}
+.role{font-size:clamp(1.2rem,3vw,2rem);color:var(--ac);min-height:1.6em;margin-top:.6rem}
+.role::after{content:"";display:inline-block;width:2px;height:1em;margin-left:4px;vertical-align:-.12em;background:currentColor;animation:bl 1s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}
+.lede{max-width:36rem;margin-top:1.2rem;color:var(--mut)}
+.cta{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
+.btn{padding:.8rem 1.5rem;border-radius:99px;border:1px solid var(--line);text-decoration:none;background:var(--card);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);transition:transform .3s,background .3s}
+.btn:hover{transform:translateY(-3px);background:oklch(1 0 0/.12)}
+.btn.main{background:linear-gradient(120deg,var(--ac),var(--ac2));color:oklch(.2 .03 var(--h));border:0;font-weight:600}
+h2{font-size:clamp(2rem,5vw,3.4rem);margin-bottom:1.6rem}
+.glass{border:1px solid var(--line);border-radius:1.5rem;padding:clamp(1.3rem,3vw,2.2rem);background:radial-gradient(circle at var(--sx,50%) var(--sy,0%),oklch(1 0 0/.12),var(--card) 55%);-webkit-backdrop-filter:blur(16px) saturate(1.3);backdrop-filter:blur(16px) saturate(1.3);transition:transform .25s ease-out}
+.about,.grid{display:grid;gap:1.2rem}
+.about{grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));align-items:center}
+.grid{grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
+.about p+p{margin-top:1rem}
+.ring{--a:0deg;display:grid;aspect-ratio:1;width:min(100%,15rem);margin:auto;border-radius:50%;background:conic-gradient(from var(--a),var(--ac),var(--ac2),var(--ac));animation:spin 8s linear infinite;padding:5px}
+.ring div{border-radius:50%;display:grid;place-items:center;text-align:center;background:var(--bg);font-family:ui-serif,Georgia,serif;font-size:1.3rem;padding:1rem}
+@keyframes spin{to{--a:360deg}}
+.rail{display:flex;gap:1.2rem;overflow-x:auto;scroll-snap-type:x mandatory;padding:.6rem .2rem 1.2rem;scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+.rail .glass{flex:0 0 min(84%,25rem);scroll-snap-align:center}
+h3{font-size:1.5rem;margin:.2rem 0 .3rem}
+small{color:var(--ac);font-size:.95rem}
+.org{color:var(--mut);margin-bottom:.6rem}
+ul{padding-left:1.1rem;color:var(--mut);font-size:.95rem}
+li+li{margin-top:.35rem}
+.ctl{display:flex;align-items:center;gap:1rem;margin-top:.5rem}
+.ctl button{width:2.8rem;height:2.8rem;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--fg);font-size:1.2rem;cursor:pointer;transition:background .3s}
+.ctl button:hover{background:oklch(1 0 0/.14)}
+input[type=range]{accent-color:var(--ac);cursor:pointer}
+#scrub{flex:1}
+.glass p{color:var(--mut)}
+.glass h3+p{margin-top:.3rem}
+.contact{text-align:center}
+.contact h2{font-size:clamp(2.4rem,8vw,6rem)}
+footer{text-align:center;padding:3rem 1rem 6rem;color:var(--mut);font-size:.9rem}
+.tune{position:fixed;right:1rem;bottom:1rem;z-index:9;border:1px solid var(--line);border-radius:1.2rem;background:oklch(.2 .03 var(--h)/.75);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);padding:.7rem 1rem;width:15rem}
+.tune summary{cursor:pointer;font-size:.95rem;list-style:none}
+.tune summary::-webkit-details-marker{display:none}
+.tune summary::before{content:"\2726\00a0";color:var(--ac)}
+.tune label{display:block;margin-top:.8rem;font-size:.85rem;color:var(--mut)}
+.tune input{width:100%}
+.tune button{margin-top:.9rem;width:100%;padding:.45rem;border-radius:.7rem;border:1px solid var(--line);background:var(--card);color:var(--fg);cursor:pointer}
+@supports (animation-timeline:view()){
+.bar{animation:grow linear both;animation-timeline:scroll()}
+@keyframes grow{to{scale:1 1}}
+.rv{animation:rv linear both;animation-timeline:view();animation-range:entry 0% cover 30%}
+@keyframes rv{from{opacity:0;translate:0 3rem;filter:blur(6px)}}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media (max-width:34rem){.tune{width:13rem}}
+@media print{#bg,.glow,.bar,nav,.tune,.ctl{display:none}
+:root{--bg:#fff;--fg:#111;--mut:#333;--ac:#064;--card:#fff;--line:#999}
+.rail{display:grid;overflow:visible}.rail .glass,.glass{background:#fff;-webkit-backdrop-filter:none;backdrop-filter:none;break-inside:avoid}
+.hero{min-height:0}section{padding:1.5rem 0}.rv,h1 .l{animation:none;opacity:1}}
+</style>
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="glow" aria-hidden="true"></div>
+<div class="bar" aria-hidden="true"></div>
+
+<nav aria-label="Sections">
+  <a href="#top">Home</a><a href="#about">About</a><a href="#work">Work</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+</nav>
+
+<main id="top">
+<section class="hero">
+  <h1 id="name" aria-label="Clayton Robertson">Clayton Robertson</h1>
+  <p class="role" id="role">Registered massage therapy student</p>
+  <p class="lede">Saskatoon-based, hands-on, and always learning. History graduate, certified fabricator-welder, and now training to become a registered massage therapist.</p>
+  <div class="cta">
+    <a class="btn main" href="#work">See my experience</a>
+    <a class="btn" href="#contact">Contact</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="rv">About me</h2>
+  <div class="about">
+    <div class="glass tilt rv">
+      <p>I earned a Bachelor of Arts in History at the University of Victoria, then added a web development certificate and a fabricator-welder certificate. I’m now studying massage therapy at Axiom Career College.</p>
+      <p>My work has ranged from research and production to recycling, composting, and retail sales. Each role taught me to show up on time, work well with a team, and keep learning.</p>
+    </div>
+    <div class="glass tilt rv"><div class="ring"><div>Saskatoon,<br>Saskatchewan</div></div></div>
+  </div>
+</section>
+
+<section id="work">
+  <h2 class="rv">Work experience</h2>
+  <div class="rail" id="rail" tabindex="0" aria-label="Work experience carousel">
+    <article class="glass tilt"><small>April to June 2026</small><h3>Front end sales</h3><p class="org">Kal Tire (temporary position)</p>
+      <ul><li>Greeted customers and sold tires.</li><li>Ordered product from warehouses and distributors.</li><li>Scheduled appointments and entered data.</li><li>Processed sales on a point-of-sale (POS) system.</li><li>Visually inspected vehicles and tires.</li></ul></article>
+    <article class="glass tilt"><small>June 2025 to February 2026</small><h3>Production technician</h3><p class="org">Lucky Bastard Distillers, Saskatoon</p>
+      <ul><li>Packaged cans on the canning line.</li><li>Filled mini-bottles of spirits, liqueurs, and bitters.</li><li>Prepared and assembled wholesale orders.</li><li>Sorted inventory, cleaned equipment, and helped load and unload deliveries.</li></ul></article>
+    <article class="glass tilt"><small>July to September 2024</small><h3>Recycling technician</h3><p class="org">SARCAN, Warman</p>
+      <ul><li>Operated sorting conveyor belts and helped run daily site operations.</li><li>Kept the site clean and well maintained.</li><li>Trained and mentored new employees.</li></ul></article>
+    <article class="glass tilt"><small>2020 to 2021</small><h3>Recycling technician</h3><p class="org">SARCAN, Warman</p>
+      <ul><li>Managed sorting and processing of recyclables.</li><li>Kept the workflow organized and efficient.</li><li>Helped train employees and maintain the site.</li></ul></article>
+    <article class="glass tilt"><small>2019</small><h3>Research technician</h3><p class="org">University of Saskatchewan, College of Agriculture and Bioresources</p>
+      <ul><li>Supported research in pulse crop breeding, genetics, and agronomy.</li><li>Helped with seed setup, processing, and seeding.</li><li>Maintained research plots, greenhouses, and Phytotron environments.</li></ul></article>
+    <article class="glass tilt"><small>2017 to 2018</small><h3>Cleaner, landscaper, and composting site supervisor</h3><p class="org">Erical Cleaning, Saskatoon</p>
+      <ul><li>Supervised the City of Saskatoon composting site, monitoring temperature and logging data.</li><li>Served customers and handled daily site operations.</li><li>Cleaned construction trailers and mowed lawns.</li></ul></article>
+  </div>
+  <div class="ctl">
+    <button id="prev" aria-label="Previous job">&#8592;</button>
+    <input type="range" id="scrub" min="0" max="1000" value="0" aria-label="Scrub through work experience">
+    <button id="next" aria-label="Next job">&#8594;</button>
+  </div>
+</section>
+
+<section id="education">
+  <h2 class="rv">Education</h2>
+  <div class="grid">
+    <div class="glass tilt rv"><small>2026, in progress</small><h3>Registered massage therapy</h3><p>Axiom Career College</p></div>
+    <div class="glass tilt rv"><small>2022</small><h3>Fabricator-welder certificate</h3><p>Saskatchewan Polytechnic, Saskatoon</p></div>
+    <div class="glass tilt rv"><small>2015</small><h3>Web development and digital marketing certificate</h3><p>Q College, Victoria</p></div>
+    <div class="glass tilt rv"><small>2015</small><h3>Bachelor of Arts, History</h3><p>University of Victoria</p></div>
+    <div class="glass tilt rv"><small>2008</small><h3>High school diploma</h3><p>Perdue School, Perdue</p></div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="rv">Skills</h2>
+  <div class="grid">
+    <div class="glass tilt rv"><h3>Teamwork</h3><p>Collaborated with teams at the City of Saskatoon composting site and the Warman SARCAN depot.</p></div>
+    <div class="glass tilt rv"><h3>Active learner</h3><p>Moved from a Bachelor of Arts in History to welding, and now to massage therapy.</p></div>
+    <div class="glass tilt rv"><h3>Punctual</h3><p>Strong attendance record at Saskatchewan Polytechnic and the Warman SARCAN depot.</p></div>
+    <div class="glass tilt rv"><h3>Technology</h3><p>Microsoft Office, Google Workspace, Windows, and Linux. Strong keyboarding and data entry.</p></div>
+    <div class="glass tilt rv"><h3>Oral communication</h3><p>Clear, confident speaking with customers, coworkers, and trainees.</p></div>
+  </div>
+</section>
+
+<!-- To add a contact method later, put a button here: <a class="btn main" href="mailto:...">Email me</a> -->
+<section id="contact" class="contact">
+  <h2 class="rv">Let’s talk</h2>
+  <p class="lede rv" style="margin-inline:auto">Contact details are available on request.</p>
+</section>
+</main>
+
+<footer>&copy; <span id="yr">2026</span> Clayton Robertson. Built with plain HTML, CSS, and JavaScript.</footer>
+
+<details class="tune">
+  <summary>Tune the page</summary>
+  <label>Colour <input type="range" id="hue" min="0" max="360" value="200"></label>
+  <label>Wave energy <input type="range" id="en" min="0" max="100" value="60"></label>
+  <label>Pressure (glow) <input type="range" id="pr" min="0" max="100" value="60"></label>
+  <button id="reset" type="button">Reset</button>
+</details>
+
+<script>
+const $=s=>document.querySelector(s),R=document.documentElement;
+const rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+$('#yr').textContent=new Date().getFullYear();
+
+/* Name, letter by letter (words stay separated) */
+const nm=$('#name');let n=0;
+nm.innerHTML=nm.textContent.split(' ').map(w=>`<span class="w" aria-hidden="true">${[...w].map(c=>`<span class="l" style="--i:${n++}">${c}</span>`).join('')}</span>`).join('');
+
+/* Typed roles */
+const roles=['Registered massage therapy student','Certified fabricator-welder','B.A. in History','Based in Saskatoon'];
+let ri=0,ci=0,del=false;const role=$('#role');
+(function type(){
+  if(rm)return;
+  const w=roles[ri];
+  role.textContent=w.slice(0,ci+=del?-1:1);
+  let d=del?30:60;
+  if(!del&&ci===w.length){del=true;d=1600}
+  else if(del&&ci===0){del=false;ri=(ri+1)%roles.length;d=300}
+  setTimeout(type,d);
+})();
+
+/* Wave canvas: reacts to pointer, colour, and energy */
+const cv=$('#bg'),g=cv.getContext('2d'),glow=$('.glow');
+let W,H,D=Math.min(devicePixelRatio||1,2),mx=-9999,my=-9999,t=0,E=.6,hue=200;
+const rs=()=>{W=cv.width=innerWidth*D;H=cv.height=innerHeight*D;if(rm)frame()};
+addEventListener('resize',rs);
+addEventListener('pointermove',e=>{mx=e.clientX*D;my=e.clientY*D;glow.style.setProperty('--mx',e.clientX+'px');glow.style.setProperty('--my',e.clientY+'px')},{passive:true});
+function frame(){
+  g.clearRect(0,0,W,H);
+  for(let i=0;i<26;i++){
+    const k=i/26,base=H*(.08+.84*k);
+    g.beginPath();
+    for(let X=0;X<=W+16;X+=16*D){
+      let y=base+Math.sin(X*.0035/D+t+k*5)*46*E*D+Math.sin(X*.011/D-t*1.5+k*9)*14*E*D;
+      const dx=X-mx,dy=base-my,s=190*D;
+      y+=(base<my?-1:1)*Math.exp(-(dx*dx+dy*dy)/(2*s*s))*70*E*D;
+      X?g.lineTo(X,y):g.moveTo(X,y);
+    }
+    g.strokeStyle=`oklch(.8 .14 ${hue+k*70} / ${.1+.3*k})`;
+    g.lineWidth=1.3*D;g.stroke();
+  }
+  t+=.006+.012*E;
+  if(!rm)requestAnimationFrame(frame);
+}
+rs();if(!rm)frame();
+
+/* Scroll progress fallback for browsers without scroll-driven animations */
+if(!CSS.supports('animation-timeline:scroll()')){
+  const bar=$('.bar');
+  addEventListener('scroll',()=>{bar.style.scale=(scrollY/Math.max(1,R.scrollHeight-innerHeight))+' 1'},{passive:true});
+}
+
+/* 3D tilt with light spot */
+document.querySelectorAll('.tilt').forEach(c=>{
+  c.addEventListener('pointermove',e=>{
+    if(rm||e.pointerType==='touch')return;
+    const r=c.getBoundingClientRect(),px=(e.clientX-r.left)/r.width,py=(e.clientY-r.top)/r.height;
+    c.style.transform=`perspective(800px) rotateY(${(px-.5)*10}deg) rotateX(${(.5-py)*10}deg)`;
+    c.style.setProperty('--sx',px*100+'%');c.style.setProperty('--sy',py*100+'%');
+  });
+  c.addEventListener('pointerleave',()=>c.style.transform='');
+});
+
+/* Work carousel with scrubber */
+const rail=$('#rail'),sc=$('#scrub');
+let scrubbing=false,tm;
+const span=()=>rail.scrollWidth-rail.clientWidth;
+rail.addEventListener('scroll',()=>{if(!scrubbing)sc.value=span()?rail.scrollLeft/span()*1000:0},{passive:true});
+sc.addEventListener('input',()=>{
+  scrubbing=true;rail.style.scrollSnapType='none';
+  rail.scrollTo({left:sc.value/1000*span(),behavior:'instant'});
+  clearTimeout(tm);tm=setTimeout(()=>{scrubbing=false;rail.style.scrollSnapType=''},400);
+});
+const step=()=>rail.querySelector('.glass').offsetWidth+parseFloat(getComputedStyle(rail).columnGap||16);
+$('#prev').onclick=()=>rail.scrollBy({left:-step(),behavior:'smooth'});
+$('#next').onclick=()=>rail.scrollBy({left:step(),behavior:'smooth'});
+rail.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight'){e.preventDefault();$('#next').click()}
+  if(e.key==='ArrowLeft'){e.preventDefault();$('#prev').click()}
+});
+
+/* Tune panel */
+const set=(id,fn)=>$(id).addEventListener('input',e=>{fn(+e.target.value);if(rm)frame()});
+set('#hue',v=>{hue=v;R.style.setProperty('--h',v)});
+set('#en',v=>E=v/100);
+set('#pr',v=>R.style.setProperty('--glow',v/100));
+$('#reset').onclick=()=>[['#hue',200],['#en',60],['#pr',60]].forEach(([s,v])=>{$(s).value=v;$(s).dispatchEvent(new Event('input'))});
+</script>
+</body>
+</html>
